@@ -1,0 +1,102 @@
+body{
+    background-color: #DCE0E6 !important;
+}
+
+.cabecalho{
+    background-color: #2B4C7E;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding-top: 1em;
+    padding-bottom: 0.5em ;
+    margin-bottom: 1em;
+}
+
+.ancora_cabecalho{
+    color: #DCE0E6;
+    text-decoration: none;
+}
+
+
+.secao_investimento{
+    background-color: #606D80;
+    color: #DCE0E6;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.descricao_quantia{
+    text-align: center;
+}
+
+.secao_investir{
+    background-color: #567EBB;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.secao_acessar_investimentos{
+    margin-left: auto;
+    margin-right: auto ;
+    max-width: 500px;
+}
+
+.rodape{
+    background-color: #2B4C7E;
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    padding-top: 1em;
+    margin-top: 1em;
+}
+
+.link{
+    text-decoration: none;
+    color: #DCE0E6;
+}
+
+.link_selecionado{
+    color: #567EBB !important;
+}
+
+@media(min-width:600px) {
+    .cabecalho{
+        gap: 20%;
+        margin-bottom: 2em;
+        font-size: 18px;
+    }
+    .secao_investimento{
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+    }
+
+    .rodape{
+        gap: 40%;
+        margin-top: 2em;
+        font-size: 18px;
+    }
+}
+
+@media(min-width:1000px){
+    .secao_investimento{
+        display: flex;
+        justify-content: space-around;
+        font-size: 24px;
+        padding: 2em 1em;
+        gap: 3em;
+        margin: 4em 7.2em;
+    }
+    .investido, .rendimento{
+        padding: 1em;
+    }
+    .secao_investir{
+        margin: 4em 10em;
+        padding: 3em;
+        border-radius: 20px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px black;
+    }
+}
